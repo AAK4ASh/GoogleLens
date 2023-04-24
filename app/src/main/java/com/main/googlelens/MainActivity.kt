@@ -126,9 +126,9 @@ image.image?.let{
         }
     }.addOnFailureListener{
         it.printStackTrace()
-    }.addOnCompleteListener{
+    }.addOnCompleteListener {
         image.close()
-    }?:image.close()
+    }
 
 }
          }
